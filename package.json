@@ -1,0 +1,19 @@
+{
+  "name": "shopify-gdex-hook",
+  "license": "ISC",
+  "homepage": "https://github.com/project-infinix/shopify-gdex-hook#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-infinix/shopify-gdex-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/project-infinix/shopify-gdex-hook/issues"
+  },
+  "devDependencies": {
+    "serverless": "^2.4.0",
+    "serverless-offline": "^6.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}

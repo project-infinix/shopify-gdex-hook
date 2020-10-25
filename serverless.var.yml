@@ -1,0 +1,11 @@
+dev:
+  gdex:
+    endpoint: https://myopenapi.gdexpress.com/api/demo/prime/CreateConsignment?1115822
+    apiToken: e9e2900c-0400-43c6-b0df-3a454fd53ec9
+    subscriptionKey: 711f379ae21f42ccb98fe17622eb5171
+
+production:
+  gdex:
+    endpoint: https://myopenapi.gdexpress.com/api/prime/CreateConsignment?1115822
+    apiToken: ${env:GDEX_PROD_API}
+    subscriptionKey: f18b2137be7f43cdb1c8b15dd0919242
